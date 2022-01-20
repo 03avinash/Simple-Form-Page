@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.conatiner {
+    border: 2px solid black;
+    background: white;
+    padding: 30px;
+    border-radius: 4px;
+ 
+}
+.title {
+    font-size: 25px;
+    font-weight: 500;
+}
+hr {
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-image: linear-gradient(135deg, #71b7e6, #9b59b6);
+    border-image-slice: 1;
+}
+.title-names {
+    font-size: 15px;
+}
+.input-titles {
+    margin: 5px 0px 10px 0px;
+    padding: 7px 40px 7px 15px;
+    border: 1px solid;
+    border-image: linear-gradient(135deg, #71b7e6, #9b59b6);
+    border-image-slice: 1;
+}
+.left {
+    padding-left: 30px;
+}
+.btn {
+    padding: 5px 10px 5px 10px;
+    border: 1px solid;
+    border-image: linear-gradient(135deg, #71b7e6, #9b59b6);
+    border-image-slice: 1;
+    background: white;
+    font-size: 15px;
+}
+.btn:hover {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color: white;
+}
